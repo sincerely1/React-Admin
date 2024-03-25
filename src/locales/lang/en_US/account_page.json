@@ -1,0 +1,23 @@
+{
+    "account_page":{
+       "general":{
+        "tabbar":"Generak",
+        "avatarIllusion":"Allowed *.jpeg, *.jpg, *.png, *.gif",
+        "usernameLable":"Username",
+        "emailLable":"Email",
+        "phoneLable":"Phone",
+        "addressLable":"Address",
+        "cityLable":"City",
+        "codeLable":"Code",
+        "infoLable":"About",
+        "saveButton":"Save Change"
+       },
+       "security":{
+        "tabbar":"Security",
+        "oldPasswordLable":"Old Password",
+        "newPasswordLable":"New Password",
+        "confirmPasswordLable":"Confirm New Password",
+        "saveButton":"Sage Change"
+       }
+    }
+}

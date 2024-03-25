@@ -1,0 +1,72 @@
+{
+  "name": "my-react-admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@iconify/react": "^4.1.1",
+    "@tanstack/react-query": "^5.17.19",
+    "@tanstack/react-query-devtools": "^5.17.21",
+    "@types/nprogress": "^0.2.3",
+    "antd": "^5.13.2",
+    "autosuggest-highlight": "^3.3.4",
+    "axios": "^1.6.5",
+    "color": "^4.2.3",
+    "echarts": "^5.4.3",
+    "echarts-for-react": "^3.0.2",
+    "framer-motion": "^11.0.3",
+    "i18next": "^23.7.19",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "nprogress": "^0.2.0",
+    "ramda": "^0.29.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^14.0.1",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.21.3",
+    "react-use": "^17.5.0",
+    "screenfull": "^6.0.2",
+    "simplebar-react": "^3.2.4",
+    "styled-components": "^6.1.8",
+    "terser": "^5.29.1",
+    "zustand": "^4.5.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.0",
+    "@types/autosuggest-highlight": "^3.2.3",
+    "@types/color": "^3.0.6",
+    "@types/ramda": "^0.29.10",
+    "@types/react": "^18.2.43",
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "msw": "^2.1.5",
+    "postcss": "^8.4.33",
+    "postcss-import": "^16.0.0",
+    "postcss-nesting": "^12.0.2",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vite-tsconfig-paths": "^4.3.1"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}

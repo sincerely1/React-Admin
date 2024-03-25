@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "allowJs": true, // 允许编译JavaScript文件
+    "noImplicitAny": false,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "sourceMap": true, // 输出 *.map 文件提供源码映射
+    "declaration": true, // 是否生成声明文件（.d.ts）。
+    "preserveWatchOutput": true, // 该选项允许在监视模式下保留先前编译的文件，从而避免增量编译时删除更改的文件导致的重新编译。
+    "removeComments": true, // 是否移除注释。可以提高编译速度并减小生成文件的大小
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": ".",
+    /* alias*/
+    "paths": {
+      "@/*":["src/*"],
+      "#/*":["types/*"]
+    }
+  },
+  "include": ["src", "test", "types/**/*.ts", "**.ts", "*.json", "**.*js"],
+  "exclude": ["node_modules", "dist"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

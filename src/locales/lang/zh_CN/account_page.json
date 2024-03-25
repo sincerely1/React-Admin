@@ -1,0 +1,23 @@
+{
+    "account_page":{
+       "general":{
+        "tabbar":"用户信息",
+        "avatarIllusion":"允许上传*.jpeg, *.jpg, *.png, *.gif格式图像",
+        "usernameLable":"用户名",
+        "emailLable":"邮箱",
+        "phoneLable":"电话",
+        "addressLable":"住址",
+        "cityLable":"城市",
+        "codeLable":"邮编",
+        "infoLable":"个人介绍",
+        "saveButton":"保存修改"
+       },
+       "security":{
+        "tabbar":"安全中心",
+        "oldPasswordLable":"旧密码",
+        "newPasswordLable":"新密码",
+        "confirmPasswordLable":"确认新密码",
+        "saveButton":"保存修改"
+       }
+    }
+}
