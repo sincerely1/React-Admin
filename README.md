@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# 介绍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+这是一个基于React、TypeScript和Vite的后台管理系统，实现也页面权限管理和组件权限管理
 
-Currently, two official plugins are available:
+# 使用方法
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```
+npm install 
+npm run dev
+npm run build
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+开发使用node版本为20版
+
+# 展示
+
+![登陆页面](./src/assets/images/readme/login.png "Magic Gardens")
+
+![这是主界面](./src/assets/images/readme/main.png "Magic Gardens")
